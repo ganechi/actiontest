@@ -8,7 +8,7 @@ name: cron-test
 # http://manpages.ubuntu.com/manpages/trusty/ja/man5/crontab.5.html
 on:
   schedule:
-    - cron:  '30 10 * * *'
+    - cron:  '31 22 * * *'
 
 # ジョブの記述
 jobs:

@@ -1,5 +1,4 @@
-# actiontest
-GitHub Actionsのテスト
+# GitHub Actionsのテスト
 
 GitHub ActionsのPython定時実行を試してみる
 

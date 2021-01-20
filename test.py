@@ -2,10 +2,7 @@ import requests
 import json
 
 def send_slack_webhook(text,url):
-	result = requests.post(url, data = json.dumps({
-			'text': text
-	}))
-	return result
+	return requests.post(url,{'text': text})
 
 if __name__ == '__main__':
 	text = "from GitHub Actions"
